@@ -1,5 +1,5 @@
-## Performance on a Small Flame dataset YOLOv10
-
+## Performance on a Flame dataset YOLOv10
+Flame Dataset
 - test Small Flame dataset (input size: 640x640)
   
 | Model       | Test Size   | Parameters  | FLOPs       | mAP50       |      Epoch |
