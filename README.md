@@ -57,6 +57,16 @@ model.val(data='coco.yaml', batch=16)
 ```
 yolo mode=predict model=runs\detect\train10\weights\best.pt source=testing\1.jpg       
 ```
+![1](https://github.com/user-attachments/assets/1f60c445-3837-4fb9-b789-98b10368b121)
 
+Result 
+
+![1](https://github.com/user-attachments/assets/fb46d6c2-7df4-46c1-a144-bbf7b93b8c38)
+
+Live Web Cam
+```
+yolo mode=predict model=runs\detect\train10\weights\best.pt source=0 show=true conf=0.1       
+```
+[LINK](https://youtu.be/nynWAYpcQDQ)
 
 
