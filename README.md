@@ -20,7 +20,7 @@ pip install -e .
 
 ## Training 
 ```
-yolo detect train data=coco.yaml model=yolov10n/s/m/l.yaml epochs=500 batch=256 imgsz=640 device=0
+yolo detect train data=coco.yaml model=yolov10n/s/m/l.yaml epochs=100 batch=256 imgsz=640 device=0
 ```
 
 ## Validation
