@@ -17,3 +17,11 @@ conda activate yolov10
 pip install -r requirements.txt
 pip install -e .
 ```
+## Validation
+[`yolov10n`](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10n.pt)  [`yolov10s`](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10s.pt)  [`yolov10m`](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10m.pt)  [`yolov10l`](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10l.pt)   
+```
+yolo val model=jameslahm/yolov10{n/s/m/l} data=coco.yaml batch=256
+```
+
+
+
