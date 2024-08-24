@@ -69,4 +69,11 @@ yolo mode=predict model=runs\detect\train10\weights\best.pt source=0 show=true c
 ```
 [LINK](https://youtu.be/nynWAYpcQDQ)
 
+Video
+
+```
+yolo mode=predict model=runs\detect\train10\weights\best.pt source=testing\v1.mp4 conf=0.1    
+```
+[LINK](https://youtu.be/gJME_dpIncw)
+
 
