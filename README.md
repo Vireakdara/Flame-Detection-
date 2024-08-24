@@ -41,5 +41,17 @@ model.val(data='coco.yaml', batch=16)
 yolo val model=jameslahm/yolov10{n/s/m/l} data=coco.yaml batch=16
 ```
 
+Or
+```python
+from ultralytics import YOLOv10
+
+model = YOLOv10.from_pretrained('jameslahm/yolov10{n/s/m/l}')
+# or
+# wget https://github.com/THU-MIG/yolov10/releases/download/v1.1/yolov10{n/s/m/l}.pt
+model = YOLOv10('yolov10{n/s/m/l}.pt')
+
+model.val(data='coco.yaml', batch=16)
+```
+
 
 
