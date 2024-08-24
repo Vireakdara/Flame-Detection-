@@ -22,6 +22,18 @@ pip install -e .
 ```
 yolo detect train data=coco.yaml model=yolov10n/s/m/l.yaml epochs=100 batch=256 imgsz=640 device=0
 ```
+Or
+```python
+from ultralytics import YOLOv10
+
+model = YOLOv10.from_pretrained('jameslahm/yolov10{n/s/m/l}')
+# or
+# wget https://github.com/THU-MIG/yolov10/releases/download/v1.1/yolov10{n/s/m/l}.pt
+model = YOLOv10('yolov10{n/s/m/l}.pt')
+
+model.val(data='coco.yaml', batch=16)
+```
+
 
 ## Validation
 [`yolov10n`](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10n.pt)  [`yolov10s`](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10s.pt)  [`yolov10m`](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10m.pt)  [`yolov10l`](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10l.pt)   
