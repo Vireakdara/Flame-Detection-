@@ -53,5 +53,10 @@ model = YOLOv10('yolov10{n/s/m/l}.pt')
 model.val(data='coco.yaml', batch=16)
 ```
 
+## Prediction 
+```
+yolo mode=predict model=runs\detect\train10\weights\best.pt source=testing\1.jpg       
+```
+
 
 
