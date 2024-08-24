@@ -8,3 +8,12 @@
 | [YOLOv10-S](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10s.pt)   |      640    |      2.6M   |      8.2G   |    0.472    |        0.22 |       68 |
 | [YOLOv10-M](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10m.pt)   |      640    |      2.6M   |      8.2G   |    0.472    |        0.22 |       68 |
 | [YOLOv10-L](https://github.com/ultralytics/assets/releases/download/v8.2.0/yolov10l.pt)   |      640    |      2.6M   |      8.2G   |    0.472    |        0.22 |       68 |
+
+## Installation
+`conda` virtual environment is recommended. 
+```
+conda create -n yolov10 python=3.9
+conda activate yolov10
+pip install -r requirements.txt
+pip install -e .
+```
